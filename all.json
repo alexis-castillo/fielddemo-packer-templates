@@ -258,12 +258,12 @@
             "vm_name": "{{ user `windows_2016_vm_name` }}-{{user `buildtime`}}",
             "notes": "Default User: {{user `winrm_username`}}\nDefault Pass: {{user `winrm_password`}}\nBuilt by Packer @ {{isotime \"2006-01-02 03:04\"}}.",
             "guest_os_type": "windows9Server64Guest",
-            "CPUs": "2",
-            "RAM": "4096",
+            "CPUs": "4",
+            "RAM": "8192",
             "disk_controller_type": "pvscsi",
             "storage": [{
                 "disk_size": "61440",
-                "disk_thin_provisioned": true
+                "disk_thin_provisioned": false
             }],
             "iso_paths": [
                 "{{user `windows_2016_iso`}}",
