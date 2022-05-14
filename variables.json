@@ -14,6 +14,8 @@
 
     "winrm_username": "Administrator",
     "winrm_password": "{{ env `SSHPASS`}}",
+    "winrm_insecure": true,
+    "winrm_use_ssl": true,
 
     "http_server": "https://raw.githubusercontent.com/alexis-castillo/fielddemo-packer-templates/master/config",
 
