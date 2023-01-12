@@ -16,6 +16,8 @@ function Install-Cloudbase {
   }
 }
 
+[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls11 -bor [System.Net.SecurityProtocolType]::Tls12;
+
 Write-Host "BEGIN: install_cloudbase_init.ps1"
 Write-Host "Downloading Cloudbase-init from $downloadUri"
 Get-Installer
