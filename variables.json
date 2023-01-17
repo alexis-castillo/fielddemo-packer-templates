@@ -5,8 +5,10 @@
     "vcenter_datastore": "{{ env `VCDATASTORE`}}",
     "vcenter_folder": "{{ env `VCFOLDER`}}",
     "vcenter_cluster": "{{ env `VCCLUSTER`}}",
+    "resource_pool": "VCS-ENG-KACE-Assembly"
     "vcenter_network": "{{ env `VCNETWORK`}}",
 
+    
     "buildtime": "{{ env `BUILDTIME`}}",
 
     "ssh_username": "{{ env `SSHUSER`}}",
