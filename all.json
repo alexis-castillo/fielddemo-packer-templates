@@ -245,6 +245,7 @@
             "password": "{{user `vcenter_password`}}",
             "insecure_connection": "true",
             "cluster": "{{user `vcenter_cluster`}}",
+            "resource_pool": "{{user `resource_pool`}}",
             "network_adapters": [{
                 "network": "{{user `vcenter_network`}}"
             }],
