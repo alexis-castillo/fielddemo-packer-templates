@@ -5,7 +5,7 @@
     "vcenter_datastore": "{{ env `VCDATASTORE`}}",
     "vcenter_folder": "{{ env `VCFOLDER`}}",
     "vcenter_cluster": "{{ env `VCCLUSTER`}}",
-    "resource_pool": "QST - AMER - RD/QST - AMER - RD - UEM/VCS-ENG-KACE-Assembly",
+    "resource_pool": "{{ env `VCPOOL`}}",
     "vcenter_network": "{{ env `VCNETWORK`}}",
 
     
