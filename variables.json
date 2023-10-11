@@ -45,7 +45,7 @@
     "windows_2016_iso": "[LAB_CNT_PS1_V6_VOL99] TEST/en_windows_server_2016_updated_feb_2018_x64_dvd_11636692.iso",
     "windows_2016_checksum": "af06e5483c786c023123e325cea4775050324d9e1366f46850b515ae43f764be",
 
-    "windows_2019_kr_vm_name": "packer-windows2019-kr",
-    "windows_2019_kr_iso": "[LAB_CNT_PS1_V6_VOL99] TEST/en_windows_server_2016_updated_feb_2018_x64_dvd_11636692.iso",
-    "windows_2019_kr_checksum": "af06e5483c786c023123e325cea4775050324d9e1366f46850b515ae43f764be"
+    "windows_2019_kr_vm_name": "packer-windows2019-KR",
+    "windows_2019_kr_iso": "[LAB_CNT_PS1_V6_VOL99] TEST/ko_windows_server_2019.iso",
+    "windows_2019_kr_checksum": "8B9C9C8B3C22DE956DA771CE9E7AD2985F3C6F6F5155D90D6E68C8733DFEBC7D"
 }
