@@ -323,7 +323,7 @@
                 "{{ template_dir }}/drivers/pvscsi-win8/pvscsi.sys",
                 "{{ template_dir }}/drivers/pvscsi-win8/txtsetup.oem",
                 "{{ template_dir }}/scripts/win_vmtools.cmd",
-                "{{ template_dir }}/scripts/win2016.ps1"
+                "{{ template_dir }}/scripts/win2019.ps1"
             ],
             "remove_cdrom": "true"
         }
