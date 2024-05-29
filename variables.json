@@ -42,7 +42,7 @@
     "centos8_checksum": "c87a2d81d67bbaeaf646aea5bedd70990078ec252fc52f5a7d65ff609871e255",
 
     "windows_2016_vm_name": "packer-windows2016",
-    "windows_2016_iso": "[LAB_CNT_PS1_V6_VOL99] TEST/en_windows_server_2016_updated_feb_2018_x64_dvd_11636692.iso",
+    "windows_2016_iso": "[CVG_LAB_IT_SERVICES_01] TEST/en_windows_server_2016_updated_feb_2018_x64_dvd_11636692.iso",
     "windows_2016_checksum": "af06e5483c786c023123e325cea4775050324d9e1366f46850b515ae43f764be",
 
     "windows_2019_kr_vm_name": "packer-windows2019-KR",
